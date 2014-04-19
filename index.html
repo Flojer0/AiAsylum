@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 boilerplate – all you really need…</title>
+    <link rel="stylesheet" href="scratch.css">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body id="home">
+<div class="page">
+	<header role="banner">
+		<nav>
+			<h1>AI Asylum</h1>
+			<p>A blue collar worker with white collar ambitions</p>
+		</nav>
+	</header>
+	<div class="container">
+	<main role="main">
+		<article>
+
+			<h2>HTML5 boilerplate</h2>
+
+			<p>Last week I read this great article by an Ivan Vasilev. He covered the topic of deep learning starting from the foundations of linear classification. It is a bit of a lengthy read but the page went a long way to helping me understand how deep learning works.</p>
+
+			<p>What I do cover here will be an extreme oversimplification, and I would recommend anyone that is interested to read the original article. In short a very simple linear classification algorithm can do good work but will frequently fall shorter than other choices. A neural network can learn more powerful classes but needs to be hand tuned for feed forward networks or trained with back-propogation. The large drawback of back-propogation is that with larger numbers of layers the effect of the backprop diminishes the further back you go.</p>
+
+			<p>One solution that can be used for this type of problem is autoencoders. An autoencoder is a type of feed forward network that attempts to learn a compressed form of the input. With that comes the potential of learning higher level features. If you continue this several layers to build a stacked autoencoder then you can use this compressed and higher level version of your input to train your output. Thus, hopefully, getting a perceptron that has a more useful understanding of your data.</p>
+
+			<p>What really interests me here is the potential to use the computer to build up important sets of features without human assistance. I am a bit proponent of makeing the computer do anything that you can since computer time is much cheaper than human time. I also don't want to spend my ambitions to explore the realms of machine learning on hand building feature sets for my work. I would rather gather up data and tell the computer to run with it. Even if a large amount of patience goes to waiting for the computer to digest everything I could then spend the waiting period working on other things or theorizing what I would like to do when I get my data.</p>
+
+			<p>In the mean time it looks like deep learning just might get thrown onto the heap of things that I will work on. I can't wait to see where this goes.</p>
+
+		</article>
+		
+		<!--Article footer-->
+		<footer>
+			<p id="footnote-1">I am a <dfn>person</dfn> who does stuff</p>
+			<address>
+				You may reach me at <a href="mailto:blah@mail.com">blah@mail.com</a>
+			</address>
+		</footer>
+	</main>
+	
+	<div class="sidebar">
+	<aside role="complementary">
+		<section>
+			<h2 id="gradlist">About</h2>
+			<p>I am about what I am about and that is all there is about it.</p>
+		</section>
+		<section>
+			<h2 id="gradlist">Recent posts:</h2>
+			<ol>
+				<li>Molly Carpenter</li>
+				<li>James Plumber</li>
+				<li>Caroll Shoemaker</li>
+			</ol>
+		</section>
+	</aside>
+	</div>
+	</div>
+	<footer role ="contentinfo"><small>&copy; Ai-Asylum.</small></footer>
+	</div>
+</body>
+</html>
